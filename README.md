@@ -1,4 +1,4 @@
-# Region2vec
+# region2vec-GAT
 
 Region2vec: Community Detection on Spatial Networks Using Graph Embedding with Node Attributes and Spatial Interactions
 
