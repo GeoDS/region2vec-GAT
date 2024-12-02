@@ -19,14 +19,15 @@ Liang, Y., Zhu, J., Ye, W., and Gao, S.* (2024).  [GeoAI-Enhanced Community Dete
 
 
 ```
-@inproceedings{liang2022regions2vec,
-  title={Region2vec: Community Detection on Spatial Networks Using Graph Embedding with Node Attributes and Spatial Interactions},
+@article{liang2024GeoAI,
+  title={GeoAI-Enhanced Community Detection on Spatial Networks with Graph Deep Learning},
   author={Liang, Yunlei and Zhu, Jiawei and Ye, Wen and Gao, Song },
-  booktitle={Proceedings of 30th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems
-(ACM SIGSPATIAL 2022), November 1-4, 2022, Seattle, WA, USA},
-  year={2022},
-  pages={1--4},
-  doi={10.1145/3557915.3560974}
+  journal={Computers, Environment and Urban Systems},
+  volume={119},
+  number={1},
+  pages={2358843},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
 
