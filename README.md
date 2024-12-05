@@ -15,18 +15,19 @@ Spatial networks are useful for modeling geographic phenomena where spatial inte
 
 If you find our code useful for your research, you may cite our paper:
 
-Liang, Y., Zhu, J., Ye, W., and Gao, S.* (2024).  [GeoAI-Enhanced Community Detection on Spatial Networks with Graph Deep Learning](https://arxiv.org/abs/2210.08041). Computers, Environment and Urban Systems. 119, 101693, 1-20. DOI: https://doi.org/10.1145/3557915.3560974 
+Liang, Y., Zhu, J., Ye, W., and Gao, S.* (2025).  [GeoAI-Enhanced Community Detection on Spatial Networks with Graph Deep Learning](https://doi.org/10.1016/j.compenvurbsys.2024.102228). Computers, Environment and Urban Systems. 117, 102228, 1-20. DOI: https://doi.org/10.1016/j.compenvurbsys.2024.102228
 
 
 ```
-@article{liang2024GeoAI,
+@article{liang2025GeoAI,
   title={GeoAI-Enhanced Community Detection on Spatial Networks with Graph Deep Learning},
   author={Liang, Yunlei and Zhu, Jiawei and Ye, Wen and Gao, Song },
   journal={Computers, Environment and Urban Systems},
-  volume={119},
+  volume={117},
   number={1},
-  pages={2358843},
-  year={2024},
+  pages={102228},
+  year={2025},
+  doi = {https://doi.org/10.1016/j.compenvurbsys.2024.102228},
   publisher={Elsevier}
 }
 ```
