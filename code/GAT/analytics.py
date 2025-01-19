@@ -52,9 +52,9 @@ def run_aggclustering(path, file_name, affinity, n_clusters, linkage = 'ward', a
 
     return labels, total_ratio, ratio_norm, median_ineq, median_sim, median_dist, homo_score, ineq_ls
 
-def estimate_HPSA(labels):
-    fte = pd.read_csv('D:\\Box Sync\\Spring 2021\\DHS Project\\DHS_safegraph\\shp\\wi_ct_demo_fte\\wi_ct_demo_fte_20230320.csv')
-    spa_ID = genfromtxt('../../../Data/spa.csv', delimiter=',')
+def estimate_HPSA(labels): 
+    fte = pd.read_csv('../data/wi_ct_demo_fte_20230320.csv') # this is a private data we cannot share as it is from the health department; one can create your own custimzed data labels 
+    spa_ID = genfromtxt('../data/spa.csv', delimiter=',')
     ID_Union = sorted([str(int(ct)) for ct in spa_ID])
 
     clu_col = 'clusterid'
@@ -87,7 +87,6 @@ def estimate_HPSA(labels):
     # print("fte sum:", fte_sum)
     # if fte_sum != 0:
     #     print("GEOG POP to FTE: {}".format(pop_sum/fte_sum))
-
 
 
     cluster_df['HPSA'] = False
